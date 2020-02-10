@@ -1,22 +1,16 @@
 public class AnimalMain {
     public static void main(String[] args) {
 
-        Home home = new Home();
-        Dog dog1 = new Dog();
-        Dog dog2 = new Dog();
-        cat cat1 = new cat();
 
 
-        home.makeAllSounds();// this doesn't give/return any result/data
-        home.AdoptPet(dog1);
-        home.makeAllSounds();
+        Dog dog = new Dog();
 
-        home.AdoptPet(cat1);
+        dog.eat();
+        dog.sound();
 
-        home.makeAllSounds();
+        cat Cat = new cat();
 
-        home.AdoptPet(dog2);
-
-        home.makeAllSounds();
+        Cat.eat();
+        Cat.sound();
     }
 }

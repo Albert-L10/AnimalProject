@@ -6,14 +6,14 @@ public class Animal {
 
 
 
-   public void sound()
+   public String sound()
    {
-      System.out.println("Sound");
+      return "Sound";
    };
-   public void eat()
+   public String eat()
    {
 
-          System.out.println(name+"eats");
+        return "food";
    };
 
 
